@@ -51,6 +51,7 @@ var modesByName = {
     liquid:     ["Liquid"       , "liquid"],
     lua:        ["Lua"          , "lua"],
     luapage:    ["LuaPage"      , "lp"], // http://keplerproject.github.com/cgilua/manual.html#templates
+    lucene:     ["Lucene"       , "lucene"],
     markdown:   ["Markdown"     , "md|markdown"],
     ocaml:      ["OCaml"        , "ml|mli"],
     perl:       ["Perl"         , "pl|pm"],

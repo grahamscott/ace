@@ -87,6 +87,7 @@ var docs = {
     "docs/less.less": "LESS",
     "docs/liquid.liquid": "Liquid",
     "docs/lua.lua": "Lua",
+    "docs/lucene.lucene": "Lucene",
     "docs/luapage.lp": "LuaPage",
     "docs/markdown.md": {name: "Markdown", wrapped: true},
     "docs/ocaml.ml": "OCaml",
@@ -178,13 +179,13 @@ module.exports = {
     ownSource: prepareDocList(ownSource),
     hugeDocs: prepareDocList(hugeDocs),
     initDoc: initDoc,
-    loadDoc: loadDoc    
+    loadDoc: loadDoc
 };
 module.exports.all = {
     "Mode Examples": module.exports.docs,
-    "Huge documents": module.exports.hugeDocs, 
+    "Huge documents": module.exports.hugeDocs,
     "own source": module.exports.ownSource
 };
-    
+
 });
 
